@@ -1,0 +1,96 @@
+.listheader {
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.logo_img {
+    position: fixed;
+    background-size: cover;
+    height: 7%;
+    margin-top: 55px;
+}
+
+.knop {
+    margin-left: 280px;
+}
+
+.nextbtn {
+    /* border: #fff 2px solid; */
+    margin-top: 20px;
+    width: 234px;
+}
+
+.nextbutton {
+    font-family: "ManropeRegular";
+    font-size: 14px;
+    padding-left: 10px;
+    color: #F4F7E7;
+    text-decoration: none!important;
+    /* border: #fff 1px solid; */
+}
+
+.nextsvg {
+    /* border: #fff 1px solid; */
+    width: 24px;
+}
+
+.line {
+    border: #F4F7E7 solid 1px;
+    width: 810px;
+    margin-top: 20px;
+}
+
+.titles {
+    margin-top: 15%;
+}
+
+.title_main {
+    font-family: "ManropeRegular";
+    font-size: 54px;
+    color: #F4F7E7;
+}
+
+.title_help {
+    margin-top: -45px;
+    font-family: "ManropeRegular";
+    font-size: 14px;
+    color: #F4F7E7;
+    font-weight: 100;
+}
+
+.ghost-button {
+    font-family: "ManropeRegular";
+    font-size: 14px;
+    border-radius: 15px;
+    margin-top: 69px;
+    margin-left: 75px;
+    display: inline-block;
+    width: 125px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+    background-color: #fff;
+    color: #000;
+}
+
+.safearea {
+    background-image: url("assets/img/header.png");
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    min-width: 50%;
+    min-height: 50%;
+}
