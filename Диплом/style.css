@@ -104,14 +104,41 @@ li {
     text-decoration: none;
 }
 
+.element-search {
+    padding-top: 50%;
+    color: grey;
+    font-size: 14px;
+    font-family: "ManropeRegular";
+}
+
+.textfield-search {
+    text-align: justify;
+    width: 320px;
+    border: grey solid 1px;
+    border-radius: 8px;
+}
+
+.search-widget {
+    width: 320px;
+    text-align: justify;
+}
+
 .nextbutton,
 .nextbutton:hover {
     text-decoration: none;
     color: #fff;
 }
 
-.article,
+.article {
+    transition: 1s;
+    /* Время эффекта */
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
 .article:hover {
+    transform: scale(1.5);
     text-decoration: none;
     color: #fff;
 }
@@ -124,9 +151,10 @@ li {
     color: #000;
 }
 
-body {
+
+/* body {
     height: 4000px;
-}
+} */
 
 .safearea {
     background-image: url("assets/img/header.png");

@@ -1,0 +1,64 @@
+.container-fluid {
+    background-image: url("../../assets/img/castle.png");
+    background-size: cover;
+    width: 100%;
+    height: 932px;
+    background-repeat: no-repeat;
+}
+
+.listheader {
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.logo_img {
+    margin-top: 55px;
+}
+
+.nextbtn {
+    margin-top: 50px;
+}
+
+.nextsvg {
+    transform: scale(-1, 1);
+}
+
+.line {
+    border: #F4F7E7 solid 1px;
+    width: 666px;
+    margin-top: 20px;
+}
+
+a {
+    font-family: "ManropeRegular";
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.title_main {
+    font-family: "ManropeRegular";
+    font-size: 54px;
+    color: #F4F7E7;
+}
+
+.title_help {
+    font-family: "ManropeRegular";
+    font-size: 14px;
+    color: #F4F7E7;
+    font-weight: 100;
+}
+
+.titles {
+    margin-top: 15%;
+}
+
+.nextbutton,
+.nextbutton:hover {
+    font-family: "ManropeRegular";
+    font-size: 14px;
+    padding-left: 10px;
+    color: #F4F7E7;
+    text-decoration: none!important;
+    /* border: #fff 1px solid; */
+}

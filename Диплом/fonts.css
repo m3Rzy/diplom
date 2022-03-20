@@ -12,3 +12,8 @@
     font-family: "ManropeLight";
     src: url("fonts/light.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: "RubikRegular";
+    src: url("fonts/Rubik/Rubik-Regular.ttf") format("truetype");
+}
