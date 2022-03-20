@@ -8,14 +8,17 @@ body {
 }
 
 .logo_img {
-    position: fixed;
-    background-size: cover;
     height: 7%;
-    margin-top: 55px;
+    /* margin-top: 55px; */
+}
+
+.logotype {
+    width: 400px;
 }
 
 .knop {
-    margin-left: 280px;
+    display: inline-block;
+    margin-left: 251px;
 }
 
 .nextbtn {
@@ -34,11 +37,9 @@ ul {
     padding-left: 10px;
     color: #F4F7E7;
     text-decoration: none!important;
-    /* border: #fff 1px solid; */
 }
 
 .nextsvg {
-    /* border: #fff 1px solid; */
     width: 24px;
 }
 
