@@ -1,6 +1,5 @@
 body {
     margin: 0;
-
 }
 
 .listheader {
@@ -20,7 +19,6 @@ body {
 }
 
 .nextbtn {
-   
     margin-top: 20px;
     width: 234px;
 }
@@ -29,9 +27,6 @@ ul {
     margin: 0;
     padding: 0;
 }
-
-
-
 
 .nextbutton {
     font-family: "ManropeRegular";
@@ -64,7 +59,6 @@ ul {
 }
 
 .title_help {
-    margin-top: -45px;
     font-family: "ManropeRegular";
     font-size: 14px;
     color: #F4F7E7;
@@ -82,18 +76,14 @@ a {
     margin-top: 200px;
 }
 
-
-
 li {
     margin-right: 100px;
     display: inline;
     width: 100px;
     height: 60px;
-    border: #000 solid 1px;
 }
 
 .article {
-    
     font-size: 16px;
     font-weight: 500;
 }
@@ -114,28 +104,34 @@ li {
     text-decoration: none;
 }
 
+.nextbutton,
+.nextbutton:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.article,
+.article:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 .ghost-button:hover,
 .ghost-button:active {
+    text-decoration: none;
+    color: #fff;
     background-color: #fff;
     color: #000;
 }
 
-body { 
+body {
     height: 4000px;
 }
 
-
-
-
 .safearea {
     background-image: url("assets/img/header.png");
-    
     background-size: cover;
     width: 100%;
     height: 1000px;
-    
     background-repeat: no-repeat;
-    
-   
-   
 }
