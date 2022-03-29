@@ -7,6 +7,13 @@
 }
 
 .listheader {
+    /* margin-left: 125px;
+    margin-right: 125px; */
+    margin-left: 325px;
+    margin-right: 325px;
+}
+
+.listheader2 {
     margin-left: 125px;
     margin-right: 125px;
 }
@@ -16,7 +23,7 @@
 }
 
 .nextbtn {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .nextsvg {
@@ -65,7 +72,6 @@
 
 .next-article {
     padding-top: 15px;
-    margin-top: 60px;
     display: block;
     height: 80px;
     width: 1200px;
@@ -106,6 +112,21 @@ body {
     width: 350px;
 }
 
+.picture3-block {
+    margin-top: 15px;
+    text-align: center;
+    float: center;
+    width: 550px;
+}
+
+.picture3-info {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 10px;
+    width: 550px;
+    height: 250px;
+}
+
 .subject3 {
     display: flex;
     margin-top: -250px;
@@ -140,6 +161,35 @@ p {
     margin-top: 100px;
     text-align: justify;
     font-size: 16px;
+}
+
+.subject6 {
+    padding-right: 30px;
+    display: flex;
+    margin-top: 50px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.subject7 {
+    padding-right: 30px;
+    display: flex;
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.subject8 {
+    padding-right: 30px;
+    display: flex;
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.title-veka {
+    font-family: 'ManropeRegular';
+    font-size: 36px;
 }
 
 .picture1 {
@@ -190,7 +240,7 @@ p {
 }
 
 .titles {
-    margin-top: 15%;
+    margin-top: 25%;
 }
 
 .nextbutton,
